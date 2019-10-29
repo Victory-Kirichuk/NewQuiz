@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">New Quiz</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="total">Total</string>
+</resources>

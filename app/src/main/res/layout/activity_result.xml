@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:stretchColumns="*"
+   android:layout_gravity=""
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:padding="5dp" android:layout_gravity="center_vertical" android:layout_marginTop="200dp">
+        <TextView android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:gravity="center_horizontal"
+         android:textSize="35sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView android:layout_width="match_parent"
+            android:id="@+id/total"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="35sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+
+            />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correct"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            android:textColor="@color/colorRight"
+            />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/correct"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            android:textColor="@color/colorRight"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="303dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            android:text="@string/wrong"
+            android:textColor="@color/colorWrong"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:id="@+id/wrong"
+            android:textSize="35sp"
+            android:textColor="@color/colorWrong"/>
+
+    </TableRow>
+</TableLayout>
